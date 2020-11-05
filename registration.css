@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to right, rgb(131, 184, 212), rgb(182, 221, 225));
+}
+.container{
+	user-select: none;
+	min-width: 30%;
+	padding:1.5rem;
+	background-color: #f2f2f2 ;
+	text-align: center;
+	box-shadow: 0 3px 4px 6px rgb(131, 184, 212) ;
+}
+.header{
+	font-size: 20px;
+	padding: 0.5rem;
+	color: #071e3d ;
+	font-weight: bold;
+	text-decoration: underline;
+}
+form div{
+	margin: 1rem;
+}
+label{
+	font-size: 1.45rem;
+}
+input{
+	border: 2px solid grey;
+	outline: none;
+	background-color: #f6f6f6;
+	font-size: 1.3rem;
+	float: right;
+}
+#male {
+  float: none;
+  margin-left:  3rem;
+}
+#female {
+  float: none;
+  margin-left:  0.8rem;
+}
+input:focus {
+  	border:  3px solid #555;
+}
+input::placeholder{
+	text-align: center;
+}
+
+button{
+	width: 50%;
+	font-size: 1.4rem;
+	padding: 0.3rem 0.6rem ;
+	margin: 0.4rem;
+	font-weight: bold;
+	color: #071e3d ;
+	background-color: #e2f3f5  ;
+	border: 1px solid grey;
+	outline:  none;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #7792af ;
+	color: #deeced ;
+}
+p{
+	margin: 0.6rem;
+	font-size: 1.4rem;
+}
